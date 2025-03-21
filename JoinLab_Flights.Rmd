@@ -11,6 +11,7 @@ output: html_document
 Load the `"nycflights13"` package.  You'll also need to load `dplyr` or `tidyverse`, if you didn't above.
 
 ```{r}
+library(dplyr)
 library(tidyverse)
 #install.packages("nycflights13")
 library(nycflights13)
